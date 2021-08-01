@@ -13,11 +13,11 @@ if(PKG_CONFIG_FOUND)
 endif 	(PKG_CONFIG_FOUND )
 
 #GTK packages
-find_package(XercesC REQUIRED)
-include_directories(${XercesC_INCLUDE_DIRS})
-link_directories(${XercesC_LIBRARIES})
+#find_package(XercesC REQUIRED)
+#include_directories(${XercesC_INCLUDE_DIRS})
+#link_directories(${XercesC_LIBRARIES})
 
 add_library(${PROJECT_NAME} SHARED ${SRC})
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
-target_link_libraries(${PROJECT_NAME} XercesC::XercesC)
+#target_link_libraries(${PROJECT_NAME} XercesC::XercesC)
