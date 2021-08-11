@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 2.8...3.10)
 project(CFDI)
 
 #Project CFDI
+#This will change to compile with msys" libs
 
 set(SRC ${PROJECT_SOURCE_DIR}/src/cfdv33.cxx
         ${PROJECT_SOURCE_DIR}/src/catCFDI.cxx
